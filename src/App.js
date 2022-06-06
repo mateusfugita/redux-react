@@ -2,6 +2,7 @@ import { Provider } from 'react-redux';
 
 import Sidebar from './components/Sidebar';
 import Video from './components/Video';
+import CarsList from './components/CarsList';
 
 import store from './store'
 
@@ -11,6 +12,8 @@ function App() {
       <Provider store={store}>
         <Video />
         <Sidebar />
+        <hr />
+        <CarsList />
       </Provider>
     </div>
   );
